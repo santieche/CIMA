@@ -1,0 +1,203 @@
+
+.header{
+  position:relative;
+}
+
+button{
+border-radius: 5px;
+background-color: #fd324e;
+color:white;
+border:none;
+
+}
+
+body {
+  font-family: 'Allerta', sans-serif;
+  margin:0;
+}
+
+.titulo {
+  font-size: 70px;
+  margin-bottom: 0;
+  margin-top: 70px;
+
+
+}
+.title-a{
+font-size: 50px;
+font-family: 'Montserrat', sans-serif;
+margin-top:0;
+
+}
+
+.title-b{
+font-size: 50px;
+margin-bottom: 20px;
+
+}
+
+
+.servicios {
+color: #1F313C;
+font-family: 'Montserrat', sans-serif;
+}
+
+.servicios h2{
+font-size: 35px;
+}
+
+.servicios{
+  margin: 10px;
+  padding: 10px;
+  overflow: hidden;
+  border:1px solid #1F313C;
+
+}
+
+.derecha{
+  float:right;
+  position:relative;
+  top:-127px;
+
+}
+.izquierda{
+  float:left;
+  position:relative;
+  top:80px;
+}
+
+.portada {
+  background-image: url('../Imagenes/montana.jpg');
+  color: white;
+  padding: 20px;
+  background-size: cover;
+
+  }
+
+.portada button{
+  margin-bottom: 70px;
+}
+
+.menu a {
+  color: white;
+  text-decoration:none;
+  
+}
+.menu{
+  font-size: 24px;
+  display:inline-block;
+  position:absolute;
+  right:0;
+
+}
+
+.menu li{
+  display:inline-block;
+  margin-left: 30px;
+
+}
+.logotipo {
+    display:inline-block;
+}
+
+.contenedor{
+  width: 800px;
+  margin:auto;
+
+}
+
+.contendor-servicios-a{
+
+  padding-left:20px;
+
+}
+.contendor-servicios-b{
+  margin-left: 370px;
+}
+
+.footer{
+background-color: #273b47;
+}
+.contacto{
+  display: flex;
+  width: 300px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.contacto img {
+  display:block;
+}
+.contacto strong {
+  display:block;
+}
+.contacto a {
+  color: white;
+  text-decoration: none;
+  margin: 10px 10px 10px 0;
+
+
+}
+.footer .contenedor {
+  display:flex;
+  justify-content: space-between;
+}
+.formulario {
+  display: flex;
+  width: 400px;
+  color:white;
+  padding: 10px 15px;
+
+}
+.col1, .col2 {
+  display: flex;
+  flex-direction: column;
+
+}
+.col1 {
+  margin-right: 15px;
+}
+
+.col2 {
+  align-items:flex-start;
+
+}
+.intereses label{
+  font-size: 12px;
+
+}
+.formulario label{
+  margin-bottom: 10px;
+
+}
+.formulario label, .sexo, .intereses{
+  margin-bottom: 10px;
+}
+
+.sexo {
+  margin-top: 10px;
+}
+table {
+  width:100px;
+}
+th{
+  background: #273b47;
+  color: white;
+}
+th{
+  padding: 10px
+  text-align:left;
+}
+
+td{
+  padding: 20px
+}
+table, td, th {
+  border: 1px solid #273b47;
+  border-collapse: collapse;
+}
+.menu li:before{
+  content:'*'
+  font-size:50px;
+  line-height: 20px;
+  color:blue;
+}
